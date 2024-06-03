@@ -6,7 +6,11 @@
     <title>Home</title>
 
     <!-- link favicon -->
-    <link rel="shortcut icon" href="./assests/favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assests/favicon.png"
+      type="image/x-icon"
+    />
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="./assests/bootstraps/css/bootstrap.min.css" />
@@ -37,9 +41,16 @@
           class="container-fluid h-100 d-flex gap-3 justify-content-end align-items-center"
         >
           <div><i class="fa-solid fa-phone"></i> 082.396.7979</div>
-          <div class="cursor-pointer">
-            <i class="fa-solid fa-globe"></i> Tiếng Việt
-            <i class="fa-solid fa-chevron-down"></i>
+          <div>
+            <i class="fa-solid fa-globe"></i>
+            <select
+              class="bg-transparent px-1 text-white border-0 out-line-none cursor-pointer"
+              name="languages"
+              id="languages"
+            >
+              <option class="text-black" value="vietnamese">Tiếng Việt</option>
+              <option class="text-black" value="english">English</option>
+            </select>
           </div>
         </div>
       </div>
@@ -51,7 +62,11 @@
           <div class="d-flex align-items-center">
             <div class="d-none d-sm-block d-xl-none">
               <i class="fa-solid fa-magnifying-glass text-white"></i>
-              <input class="mx-2 bg-transparent border-0 border-bottom border-2 border-secondary-subtle text-white out-line-none" type="text" placeholder="Tìm kiếm" />
+              <input
+                class="mx-2 bg-transparent border-0 border-bottom border-2 border-secondary-subtle text-white out-line-none"
+                type="text"
+                placeholder="Tìm kiếm"
+              />
             </div>
             <button
               class="navbar-toggler collapsed bg-white shadow-none"
@@ -77,15 +92,23 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-uppercase text-white" href="#"
+                <a
+                  class="nav-link text-uppercase text-white"
+                  href="#field-of-activity"
                   >Lĩnh vực hoạt động</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-uppercase text-white" href="#">Dự án</a>
+                <a
+                  class="nav-link text-uppercase text-white"
+                  href="#feature-project"
+                  >Dự án</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-uppercase text-white" href="#"
+                <a
+                  class="nav-link text-uppercase text-white"
+                  href="#feature-news"
                   >Tin tức</a
                 >
               </li>
@@ -228,7 +251,7 @@
           </div>
         </div>
         <div class="row mt-5">
-          <div class="col-lg-4 col-12  p-2">
+          <div class="col-lg-4 col-12 p-2">
             <div id="field-of-activity-1" class="d-flex align-items-end">
               <div
                 class="bg-white my-4 p-2 opacity-75 content mx-auto text-justify"
@@ -299,10 +322,9 @@
               class="line border-2 border-bottom border-warning-subtle"
             ></div>
             <div class="desc mt-3 text-justify">
-              LONGRUN mang đến cho khách hàng những công trình chất 
-              lượng tốt nhất, góp phần mang lại sự thành công cho các quý 
-              khách hàng, đóng góp cho sự phát triển của ngành năng 
-              lượng điện Việt Nam.
+              LONGRUN mang đến cho khách hàng những công trình chất lượng tốt
+              nhất, góp phần mang lại sự thành công cho các quý khách hàng, đóng
+              góp cho sự phát triển của ngành năng lượng điện Việt Nam.
             </div>
             <button class="btn-detail">
               Xem chi tiết <i class="fa-solid fa-chevron-right"></i>
@@ -325,7 +347,9 @@
                 Năm hình thành và <br />
                 phát triển
               </div>
-              <div class="d-flex justify-content-center align-items-center my-5">
+              <div
+                class="d-flex justify-content-center align-items-center my-5"
+              >
                 <div
                   class="rounded-circle bg-secondary-subtle"
                   style="width: 8px; height: 8px;"
@@ -344,7 +368,9 @@
                 Khách hàng tin tưởng <br />
                 và lựa chọn
               </div>
-              <div class="d-flex justify-content-center align-items-center my-5">
+              <div
+                class="d-flex justify-content-center align-items-center my-5"
+              >
                 <div
                   class="rounded-circle bg-secondary-subtle"
                   style="width: 8px; height: 8px;"
@@ -362,7 +388,9 @@
               <div>
                 Nhân sự tận tâm
               </div>
-              <div class="d-flex justify-content-center align-items-center my-5">
+              <div
+                class="d-flex justify-content-center align-items-center my-5"
+              >
                 <div
                   class="rounded-circle bg-secondary-subtle"
                   style="width: 8px; height: 8px;"
@@ -380,7 +408,9 @@
               <div>
                 Dự án hoàn thành
               </div>
-              <div class="d-flex justify-content-center align-items-center my-5">
+              <div
+                class="d-flex justify-content-center align-items-center my-5"
+              >
                 <div
                   class="rounded-circle bg-secondary-subtle"
                   style="width: 8px; height: 8px;"
@@ -758,17 +788,26 @@
 
     <!-- contact -->
     <div id="contact" class="position-absolute">
-      <div class="wrapper-contact cursor-pointer bg-white border border-2 mb-2 shadow-lg rounded-circle ">
-        <img class="" src="./assests/contact-1.png" alt="">
+      <div
+        class="wrapper-contact cursor-pointer bg-white border border-2 mb-2 shadow-lg rounded-circle"
+      >
+        <img class="" src="./assests/contact-1.png" alt="" />
       </div>
-      <div class="wrapper-contact cursor-pointer bg-white border border-2 mb-2 shadow-lg rounded-circle ">
-        <img class="" src="./assests/contact-2.png" alt="">
+      <div
+        class="wrapper-contact cursor-pointer bg-white border border-2 mb-2 shadow-lg rounded-circle"
+      >
+        <img class="" src="./assests/contact-2.png" alt="" />
       </div>
-      <div class="wrapper-contact cursor-pointer bg-white border border-2 mb-2 shadow-lg rounded-circle ">
-        <img class="" src="./assests/contact-3.png" alt="">
+      <div
+        class="wrapper-contact cursor-pointer bg-white border border-2 mb-2 shadow-lg rounded-circle"
+      >
+        <img class="" src="./assests/contact-3.png" alt="" />
       </div>
-      <div id="back-to-top-js" class="wrapper-contact cursor-pointer bg-white border border-2 mb-2 shadow-lg rounded-circle ">
-        <img class="" src="./assests/contact-4.png" alt="">
+      <div
+        id="back-to-top-js"
+        class="wrapper-contact cursor-pointer bg-white border border-2 mb-2 shadow-lg rounded-circle"
+      >
+        <img class="" src="./assests/contact-4.png" alt="" />
       </div>
     </div>
 
